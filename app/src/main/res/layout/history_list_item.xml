@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    android:background="@color/transparent"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#e3016fd2">
+            <TextView
+                android:id="@+id/historyCategory"
+                android:text="Category"
+                android:textSize="16dp"
+                android:padding="4dp"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/historyLevel"
+                android:text="level"
+                android:textSize="16dp"
+                android:padding="4dp"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!--<View-->
+            <!--android:layout_below="@+id/scoretitle"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#8e579bb9" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#79ffffff">
+            <TextView
+                android:id="@+id/historyTotalAns"
+                android:text="Total Answer"
+                android:textSize="16dp"
+                android:padding="4dp"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/historyCorrectAns"
+                android:text="Correct Answer"
+                android:padding="4dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/historyWorngAns"
+                android:text="Wrong Answer"
+                android:padding="4dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_below="@+id/scoretitle"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8e579bb9" />
+        <TextView
+            android:background="#ffffff"
+            android:id="@+id/historyDateTime"
+            android:text="Datetime"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/kalpurush"
+            android:padding="4dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

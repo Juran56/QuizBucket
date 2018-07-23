@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "600856760604",
+    "firebase_url": "https://quizbucket-acd22.firebaseio.com",
+    "project_id": "quizbucket-acd22",
+    "storage_bucket": "quizbucket-acd22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600856760604:android:8dc29167d7eef803",
+        "android_client_info": {
+          "package_name": "com.pranabchakma.mcqprepartion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600856760604-cjtnivmr2ikeq4j0p8tjnakotu8jure7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW_55CdaZ-SSm1QK6GdCON-Y0T5Ebv4RU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

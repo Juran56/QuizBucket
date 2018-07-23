@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimary">#1378d2</color>-->
+    <!--<color name="colorPrimary">#52b0ff</color>-->
+    <color name="colorPrimary">#52b0ff</color>
+    <!--52b0ff-->
+    <!--2088e5-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimaryDark">#2088e5</color>
+    <color name="colorAccent">#7986CB</color>
+    <color name="darkGreen">#04a102</color>
+    <color name="incorrectbackground">#F44336</color>
+    <color name="quizColorPrimary">#3F51B5</color>
+    <color name="transparent">#e8b3c1cc</color>
+    <color name="white">#ffffff</color>
+    <color name="defaultTextColor">#747a84</color>
+</resources>

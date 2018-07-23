@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.pranabchakma.mcqprepartion.Play">
+    <RelativeLayout
+        android:id="@+id/mainContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        >
+        <TextView
+            android:id="@+id/correctProgress"
+
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:text="3/5"
+            android:textColor="#b6cce4"
+            android:textSize="16sp"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_below="@+id/correctProgress"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="start"
+            android:padding="0dp"
+            android:text="Questions:"
+            android:textColor="#bbcfe4"
+            android:textSize="24sp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/idAnim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/questionText"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/optionOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:gravity="left"
+                    android:padding="4dp"
+                    android:text="Answer"
+                    android:textColor="#747a84"
+                    android:textSize="18dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#eff0f2" />
+
+                <TextView
+                    android:id="@+id/optionTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:gravity="left"
+                    android:padding="4dp"
+                    android:text="Answer:"
+                    android:textColor="#747a84"
+                    android:textSize="18dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#eff0f2" />
+
+                <TextView
+                    android:id="@+id/optionThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:gravity="left"
+                    android:padding="4dp"
+                    android:text="Answer:"
+                    android:textColor="#747a84"
+                    android:textSize="18dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#eff0f2" />
+
+                <TextView
+                    android:id="@+id/optionFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:gravity="left"
+                    android:padding="4dp"
+                    android:text="Answer:"
+                    android:textColor="#747a84"
+                    android:textSize="18dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#eff0f2" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/bottom_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainContent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:elevation="3dp"
+        >
+        <!--<TextView-->
+            <!--android:id="@+id/timerId"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:fontFamily="@font/advent_pro_medium"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="10:99"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="30dp" />-->
+        <TextView
+            android:id="@+id/previousquestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_medium"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:layout_marginLeft="0dp"
+            android:drawableLeft="@drawable/ic_rewind"
+            />
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7485935816424837/3763962065">
+    </com.google.android.gms.ads.AdView>
+    <!--<TextView-->
+        <!--android:id="@+id/add"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:gravity="center"-->
+        <!--android:text="ad"-->
+        <!--android:textColor="@android:color/holo_green_dark" />-->
+</RelativeLayout>
